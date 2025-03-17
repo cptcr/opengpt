@@ -29,6 +29,6 @@ export async function chat(options: { token: string; prompt: string }) {
 
         return await response.json();
     } catch (error) {
-        return { error: error.message };
+        return error;
     }
 }
