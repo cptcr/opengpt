@@ -1,0 +1,38 @@
+{
+  "name": "opengpt",
+  "version": "1.0.0",
+  "description": "OpenGPT is a free and open-source tool designed to make API interactions with AI APIs like OpenAI or Claude",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cptcr/opengpt.git"
+  },
+  "author": "cptcr",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.12.1",
+    "node": "^20.19.0",
+    "readline": "^1.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openai",
+    "claude",
+    "chatgpt",
+    "ai",
+    "open_source"
+  ],
+  "bugs": {
+    "url": "https://github.com/cptcr/opengpt/issues"
+  },
+  "homepage": "https://github.com/cptcr/opengpt#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.10"
+  }
+}
